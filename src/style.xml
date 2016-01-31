@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/fill"
+              android:background="@color/bg_blue">
+
+        <com.paneleven.views.TextViewLivenim
+                android:id="@+id/btn_account"
+                android:drawableLeft="@drawable/ic_settings_profile"
+                android:text="@string/My_account"
+                style="@style/block"
+                android:drawablePadding="@dimen/padding"
+                android:drawableRight="@drawable/btn_next"
+                android:gravity="center_vertical|left"
+                android:padding="@dimen/padding"
+                android:textSize="@dimen/txt_big" />
+
+        <View style="@style/divider.vertical.white" />
+
+</LinearLayout>
